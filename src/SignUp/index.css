@@ -1,0 +1,28 @@
+.sign-up-div{
+  background-color:#c9c9c9;
+  padding: 10px;
+}
+.sign-up-div h2, h3,h4{
+  font-weight: 200;
+}
+#full-name{
+  background-color: white;
+  width: 500px;
+  padding: 15px;
+}
+
+.sign-up #email-id{
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+}
+.sign-up button{
+  height: 53px;
+  width: 100px;
+  color: white;
+  background-color: #bfa75d;
+  border:none;
+}
+.sign-up{
+  margin-top: 10px;
+}
