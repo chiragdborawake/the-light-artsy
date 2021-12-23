@@ -35,7 +35,7 @@ function useRouteMatch(patterns) {
 
 export default function LightArtsy() {
 
-  const routeMatch = useRouteMatch(['/', '/home', '/decorative-lights', '/string-light', '/table-lamps', '/track-order', '/contact-us']);
+  const routeMatch = useRouteMatch(['/', '/the-light-artsy', '/home', '/decorative-lights', '/string-light', '/table-lamps', '/track-order', '/contact-us']);
   const currentTab = routeMatch?.pattern?.path;
 
   return (
@@ -50,11 +50,7 @@ export default function LightArtsy() {
       <div className='tabs'>
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
           <Tabs value={currentTab} centered>
-            {
-              currentTab === '/' ?
-                <Tab label="Home" value="/" to="/home" component={Link} /> :
-                <Tab label="Home" value="/home" to="/home" component={Link} />
-            }
+            <Tab label="Home" value={currentTab} to="/home" component={Link} />
             <Tab label="Decorative Lights" value="/decorative-lights" to="/decorative-lights" component={Link} />
             <Tab label="String Lights" value="/string-light" to="/string-light" component={Link} />
             <Tab label="Table Lamps" value="/table-lamps" to="/table-lamps" component={Link} />
@@ -71,6 +67,7 @@ export default function LightArtsy() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/the-light-artsy" element={<Home />} />
         <Route path="/decorative-lights" element={<DecorativeLights />} />
         <Route path="/string-light" element={<StringLight />} />
         <Route path="/table-lamps" element={<TableLamps />} />
