@@ -1,0 +1,54 @@
+.contact-us img{
+  width: 400px;
+  height: 220px;
+} 
+.contact-us h2{
+  text-align: left;
+}
+.contact-us{
+  width: 60%;
+  margin: 0 auto;
+}
+.contact-us p{
+  text-align: left;
+  margin: 28px 0;
+}
+.name-container,.email-container{
+  display: inline-block;
+  width: 50%;
+}
+.name-container div{
+  text-align: left;
+}
+.email-container div{
+  text-align: left;
+}
+.name-container input{
+  width: 90%;
+  height: 30px;
+  margin: 5px 0;
+}
+.email-container input{
+  width: 90%;
+  height: 30px;
+  margin: 5px 0;
+}
+.feedback-message div{
+  text-align: left;
+}
+.feedback-message textarea{
+  width: 95%;
+  height: 80px;
+  margin: 10px 0;
+}   
+.feedback-message button{
+  height: 35px;
+  width: 90px;
+  color: white;
+  background-color: #bfa75d;
+  border:none;
+  margin: 10px 0;
+}
+.send-button{
+  text-align: left;
+}
