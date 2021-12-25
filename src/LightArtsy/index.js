@@ -50,7 +50,7 @@ export default function LightArtsy() {
       <div className='tabs'>
         <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
           <Tabs value={currentTab} centered>
-            <Tab label="Home" value={currentTab} to="/home" component={Link} />
+            <GetTabByPath value={currentTab} />
             <Tab label="Decorative Lights" value="/decorative-lights" to="/decorative-lights" component={Link} />
             <Tab label="String Lights" value="/string-light" to="/string-light" component={Link} />
             <Tab label="Table Lamps" value="/table-lamps" to="/table-lamps" component={Link} />
@@ -78,3 +78,16 @@ export default function LightArtsy() {
 
   );
 }
+function GetTabByPath({ currentTab }) {
+  switch (currentTab) {
+    case '/':
+      return <Tab label="Home" value='/' to="/" component={Link} />
+    case '/home':
+      return <Tab label="Home" value="/home" to="/home" component={Link} />
+    case '/the-light-artsy':
+      return <Tab label="Home" value="/the-light-artsy" to="/the-light-artsy" component={Link} />
+    default:
+      return <Tab label="Home" value="/home" to="/home" component={Link} />
+  }
+}
+
