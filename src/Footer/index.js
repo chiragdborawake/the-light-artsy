@@ -1,5 +1,6 @@
 import './index.css';
-export default function Footer1() {
+import { Link } from 'react-router-dom'
+export default function Footer() {
   return (
     <footer>
       <div className="customer-service">
@@ -9,7 +10,7 @@ export default function Footer1() {
         <h3>HELP  CUSTOMER SUPPORT</h3>
         <ul>
           <li>
-            Contact Us
+            <Link className='link-route' to='/contact-us'>Contact Us</Link>
           </li>
           <li>
             <p>Shipping Policy</p>
@@ -26,7 +27,7 @@ export default function Footer1() {
         <h3>QUICK LINKS</h3>
         <ul>
           <li>
-            <p>Home</p>
+            <Link className='link-route' to='/home'>Home</Link>
           </li>
           <li>
             <p>Gift Cards</p>
