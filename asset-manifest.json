@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/the-light-artsy/static/css/main.f8d23057.chunk.css",
-    "main.js": "/the-light-artsy/static/js/main.8860bc46.chunk.js",
-    "main.js.map": "/the-light-artsy/static/js/main.8860bc46.chunk.js.map",
+    "main.js": "/the-light-artsy/static/js/main.d59c03b7.chunk.js",
+    "main.js.map": "/the-light-artsy/static/js/main.d59c03b7.chunk.js.map",
     "runtime-main.js": "/the-light-artsy/static/js/runtime-main.9b77cf26.js",
     "runtime-main.js.map": "/the-light-artsy/static/js/runtime-main.9b77cf26.js.map",
     "static/js/2.42a9917c.chunk.js": "/the-light-artsy/static/js/2.42a9917c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9b77cf26.js",
     "static/js/2.42a9917c.chunk.js",
     "static/css/main.f8d23057.chunk.css",
-    "static/js/main.8860bc46.chunk.js"
+    "static/js/main.d59c03b7.chunk.js"
   ]
 }
