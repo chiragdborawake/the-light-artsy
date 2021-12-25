@@ -1,16 +1,15 @@
-import './index.css'
 import Rating from '@mui/material/Rating';
-
+import './index.css'
 export default function TrendingProducts() {
   const trendingProducts = [
     {
-      image: '/Images/TrendingProducts/BackAndNeck.jpg',
-      productName: 'Back & Neck Massager Pillo',
+      image: '/Images/TrendingProducts/WoodBlockLamp.jpg',
+      productName: 'Colourful Cotton Balls LED Ligh',
       rating: 5,
       noOfReviews: 26,
       actualPrice: 3199,
       currentPrice: 1499.00,
-      aboutImage: 'Back and Neck massager.'
+      aboutImage: 'Colourful Cotton Balls LED Ligh'
     },
     {
       image: '/Images/TrendingProducts/BonsaiTree.png',
