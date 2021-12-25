@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
-export default function ContactUs() {
+import ContactUs from '../ContactUs';
+export default function ContactUsRoute() {
   useEffect(() => {
     document.title = "Contact US - The Light Artsy"
   }, [])
-  return (<div>ContactUs</div>)
+  return (<div><ContactUs /></div>)
 }
