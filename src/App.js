@@ -1,7 +1,7 @@
-import './App.css';
-import LightArtsy from './LightArtsy'
-import { BrowserRouter } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop'
+import "./App.css";
+import LightArtsy from "./LightArtsy";
+import { BrowserRouter } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 function App() {
   return (
     <div className="App">
@@ -9,7 +9,7 @@ function App() {
         <ScrollToTop />
         <LightArtsy></LightArtsy>
       </BrowserRouter>
-    </div >
+    </div>
   );
 }
 
