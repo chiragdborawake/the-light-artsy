@@ -1,43 +1,43 @@
-.collection-list {
+.collection-list{
   position: relative;
   display: inline-block;
   margin: 10px;
 }
-.collection-list img {
+.collection-list img{
   width: 280px;
   height: 280px;
   cursor: pointer;
 }
-h2 {
+h2{
   font-weight: 200;
 }
-.collection-list .table-lamps {
+.collection-list .table-lamps{
   position: absolute;
-  top: 50%;
+  top:50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
   display: none;
 }
-.collection-list {
+.collection-list{
   cursor: pointer;
 }
-.collection-list:hover .table-lamps {
-  display: block;
+.collection-list:hover .table-lamps{ 
+  display: block; 
 }
-.table-lamps div {
+.table-lamps div{
   color: white;
-  margin: 20px;
+  margin:20px
 }
-.table-lamps div:nth-child(2) {
-  border: solid white 1px;
-  padding: 15px;
+.table-lamps div:nth-child(2){
+  border:solid white 1px;
+  padding:15px;
   font-size: 13px;
 }
-.table-lamps div:hover:nth-child(2) {
-  background-color: white;
-  color: black;
+.table-lamps div:hover:nth-child(2){
+ background-color: white;
+ color: black;
 }
-.product-name {
-  background-color: rgba(0, 0, 0, 0.7);
+.product-name{
+  background-color: rgba(0,0,0,.7);
   padding: 6px 3px;
 }
