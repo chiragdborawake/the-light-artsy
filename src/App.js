@@ -1,15 +1,14 @@
-import "./App.css";
-import LightArtsy from "./LightArtsy";
-import { HashRouter } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
+import './App.css';
+import LightArtsy from './LightArtsy'
+import { BrowserRouter } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
-      <HashRouter>
-        <ScrollToTop />
+      <BrowserRouter>
         <LightArtsy></LightArtsy>
-      </HashRouter>
-    </div>
+      </BrowserRouter>
+    </div >
   );
 }
 

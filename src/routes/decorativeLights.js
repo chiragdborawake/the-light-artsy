@@ -1,13 +1,7 @@
-import DecorativeLights from "../DecorativeLights";
-import { useEffect } from "react";
-export default function DecorativeLightsRoute() {
+import { useEffect } from 'react'
+export default function DecorativeLights() {
   useEffect(() => {
-    document.title = "Decorative Lights - The Light Artsy";
-  }, []);
-
-  return (
-    <div>
-      <DecorativeLights />
-    </div>
-  );
-}
+    document.title = "Decorative Lights - The Light Artsy"
+  }, [])
+  return (<div>Decorative Lights</div>)
+} 

@@ -1,21 +1,15 @@
-import "./index.css";
-import { Link } from "react-router-dom";
-export default function Footer() {
+import './index.css';
+export default function Footer1() {
   return (
     <footer>
       <div className="customer-service">
-        <img
-          src={process.env.PUBLIC_URL + "/Images/FooterLogo/FooterLogo.png"}
-          alt="LightArtsy logo"
-        />
+        <img src={process.env.PUBLIC_URL + '/Images/FooterLogo/FooterLogo.png'} alt='LightArtsy logo' />
       </div>
       <div className="help-customer-support">
-        <h3>HELP CUSTOMER SUPPORT</h3>
+        <h3>HELP  CUSTOMER SUPPORT</h3>
         <ul>
           <li>
-            <Link className="link-route" to="/contact-us">
-              Contact Us
-            </Link>
+            Contact Us
           </li>
           <li>
             <p>Shipping Policy</p>
@@ -24,7 +18,7 @@ export default function Footer() {
             <p>Return exchange</p>
           </li>
           <li>
-            <p>Terms Conditions</p>
+            <p>Terms  Conditions</p>
           </li>
         </ul>
       </div>
@@ -32,9 +26,7 @@ export default function Footer() {
         <h3>QUICK LINKS</h3>
         <ul>
           <li>
-            <Link className="link-route" to="/home">
-              Home
-            </Link>
+            <p>Home</p>
           </li>
           <li>
             <p>Gift Cards</p>
@@ -67,9 +59,12 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div className="copy-right">
-        ©{new Date().getFullYear()}&nbsp;The Light Artsy
+      <div className='copy-right'>
+        ©{
+          new Date().getFullYear()
+        }&nbsp;The Light Artsy
       </div>
     </footer>
-  );
+  )
 }
+
